@@ -1,0 +1,41 @@
+.rating-container {
+  text-align: center;
+  padding: 2rem;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  width: 300px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.star {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.colored {
+  color: #ffb400;
+}
+
+.unColor {
+  color: #ccc;
+}
+
+.rating-text {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
